@@ -1,0 +1,17 @@
+button {
+  margin: 2px 2px;
+  font-size: 24px; /* Устанавливаем размер текста */
+  font-weight: bold; /* Делаем текст жирным */
+  color: gray; /* Устанавливаем цвет текста серым */
+  padding: 10px 20px; /* Добавляем отступы вокруг текста */
+  background-color: #f0f0f0; /* Задаем фоновый цвет */
+  border: none; /* Убираем границу */
+  cursor: pointer; /* Изменяем курсор при наведении */
+  border-radius: 8px; /* Закругляем углы */
+  border: solid black;
+}
+
+/* Стили для кнопки при наведении */
+button:hover {
+  background-color: #d0d0d0; /* Изменяем цвет фона при наведении */
+}
